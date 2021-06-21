@@ -35,7 +35,11 @@ a {
   color: white;
   font-size: 30px;
   text-align: center;
-  text-decoration: underline;
+}
+
+.sobre p {
+  padding: 50px 150px;
+  text-align: center;
 }
 
 img.chat {
