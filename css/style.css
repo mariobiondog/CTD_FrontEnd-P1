@@ -10,36 +10,41 @@ header {
   width: 100%;
   height: 150px;
   padding: 25px;
-  border: 2px solid black;
+  border: 2px solid white;
   line-height: 100px;
   text-align: center;
-  color: black;
+  color: white;
   position: fixed;
-  background-color: whitesmoke;
+  background-color: #0e1234;
 }
 
 header a {
-  color: black;
+  color: white;
   padding: 10px 100px;
   font-size: 40px;
-  border: 5px solid black;
+  border: 5px solid white;
+}
+
+.evento {
+  background-color: #0e1234;
 }
 
 .evento img {
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 720px;
+  margin: 180px 20px 20px 100px;
 }
 
 .sobre {
-  background-color: black;
+  background-color: #0e1234;
   color: white;
   font-size: 30px;
   text-align: center;
 }
 
 section .intro {
-  margin: -20px 50px 50px;
-  padding: 50px 50px;
+  margin: -10px 50px 50px;
+  padding: 25px 50px;
   text-align: center;
 }
 
