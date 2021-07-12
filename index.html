@@ -67,6 +67,35 @@
           www.digitalhouse.com.br</a
         >
       </section>
+      <div class="form">
+        <fieldset>
+          <legend>Pré-cadastro de times</legend>
+          <form action="/register" method="POST">
+            <div>
+              <label for="nome">Nome do técnico:</label>
+              <input type="text" name="nome" id="nome" />
+            </div>
+            <div>
+              <label for="time">Nome do time:</label>
+              <input type="text" name="time" id="time" />
+            </div>
+            <div>
+              <label for="email">Email:</label>
+              <input type="email" name="email" id="email" />
+            </div>
+            <div>
+              <label for="modalidade">Modalidade:</label>
+              <select name="modalidade" id="modalidade">
+                <option value="Fut7">Fut7</option>
+                <option value="Campo">Campo</option>
+                <option value="Futsal">Futsal</option>
+              </select>
+            </div>
+
+            <button type="submit">Confirmar</button>
+          </form>
+        </fieldset>
+      </div>
     </main>
     <footer id="footer">
       <p>2021 - DH EVENTOS - TODOS OS DIREITOS RESERVADOS</p>
