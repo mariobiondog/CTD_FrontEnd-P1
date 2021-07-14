@@ -18,26 +18,9 @@
     <header>
       <nav>
         <ul>
-          <a href="#home">
-            <img
-              src="./css/images/home_black_24dp.svg"
-              alt="home icon"
-            />Home</a
-          >
+          <a href="#home"> O que é?</a>
 
-          <a href="#sobre"
-            ><img
-              src="./css/images/info_black_24dp.svg"
-              alt="info icon"
-            />Sobre</a
-          >
-
-          <a href="#footer"
-            ><img
-              src="./css/images/lock_black_24dp.svg"
-              alt="lock icon"
-            />Footer</a
-          >
+          <a href="#sobre">Pré-cadastro</a>
         </ul>
       </nav>
     </header>
@@ -71,19 +54,19 @@
         <fieldset>
           <legend>Pré-cadastro de times</legend>
           <form action="/register" method="POST">
-            <div>
-              <label for="nome">Nome do técnico:</label>
+            <div class="campos">
+              <label for="nome">Técnico:</label>
               <input type="text" name="nome" id="nome" />
             </div>
-            <div>
-              <label for="time">Nome do time:</label>
+            <div class="campos">
+              <label for="time">Time:</label>
               <input type="text" name="time" id="time" />
             </div>
-            <div>
+            <div class="campos">
               <label for="email">Email:</label>
               <input type="email" name="email" id="email" />
             </div>
-            <div>
+            <div class="campos">
               <label for="modalidade">Modalidade:</label>
               <select name="modalidade" id="modalidade">
                 <option value="Fut7">Fut7</option>
